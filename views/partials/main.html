@@ -1,0 +1,37 @@
+<div ng-include="'partials/navbar'"></div>
+
+<div class="jumbotron">
+  <h1>Welcome <span ng-show="currentUser">{{ currentUser.name }}</span>!</h1>
+  <p class="lead">
+    <img src="images/b0840d14.yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <voice-player id="alfred" accent="en-GB" text="Welcome {{ currentUser.name }}. Yeoman at your service. Always a pleasure scaffolding your apps."></voice-player>
+
+<script>
+var form = document.querySelector('#alfred-form'),
+    element = document.querySelector('#alfred');
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    element.speak();
+});
+</script>
+
+  <form id="alfred-form" class="pure-form">
+
+            <button class="btn btn-lg btn-success">Splendid!</button>
+
+  </form>
+</div>
+
+<div class="row marketing">
+  <div ng-repeat="thing in awesomeThings">
+      <h3>{{thing.name}}</h3>
+      <h5>{{thing.info}}</h5>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright 2014 - Nick Fogle</p>
+</div>

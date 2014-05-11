@@ -1,0 +1,37 @@
+<div ng-include="'partials/navbar'"></div>
+
+<h1>At your service.</h1>
+<voice-player autoplay="" accent="en-GB" text="Awaiting your orders, Master."></voice-player>
+
+<div class="row">
+  <div class="span4"></div>
+  <div class="span6">
+    <form id="recognition-form" class="pure-form">
+      <fieldset style="width:100%!important">
+        <textarea id="recognition-input" readonly="readonly" style="width:100%!important; color:black!important"></textarea>
+      </fieldset>
+      <fieldset>
+        <button id="recognition-submit" class="btn btn-lg btn-success">Go.</button>
+      </fieldset>
+    </form>
+  </div>
+  <div class="span4"></div>
+
+</div>
+
+<voice-recognition id="recognition-element"></voice-recognition>
+
+<script>
+var form = document.querySelector('#recognition-form'),
+    input = document.querySelector('#recognition-input'),
+    element = document.querySelector('#recognition-element');
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    element.start();
+});
+
+element.addEventListener('result', function(e) {
+    input.textContent = e.detail.result;
+});
+</script>
