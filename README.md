@@ -1,3 +1,13 @@
-Basic Yeoman App Using Polymer
+Basic Web App Using:
 
-Using Voice Control and Voice Commands
+Yeoman
+Node.js
+Express
+AngularJS
+Polymer/ Web Components
+
+
+Featuring:
+Voice Control and Voice Commands
+
+DEMO: Euclideanspaces.herokuapp.com
