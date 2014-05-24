@@ -1,19 +1,26 @@
-Basic Web App Using:
+Basic Web Scaffoled with Yeoman and used to Test Polymer/ Web Components:
 
-Yeoman
+##Front-End
+Angular.js
+Bootstrap 3
+Polymer
+
+##Server-Side
 Node.js
 Express
-AngularJS
-Polymer/ Web Components
+MongoDB + Mongoose
 
 
+##Deployment
+Heroku Cedar Stack
+MongoHQ for DB
+
+
+#Summary
 Featuring:
+
 Voice Control and Voice Commands
-Passport For Login
-
-
-Hosting:
-Deployed to Heroku
-Using Database MongoHQ
+Passport For Login Management
+Sample voice to speech in "Notes" View
 
 DEMO: Euclideanspaces.herokuapp.com
