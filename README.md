@@ -1,26 +1,26 @@
 #Summary
-Basic Web Scaffoled with Yeoman and used to Test Polymer/ Web Components:
+Basic Web Scaffoled with Yeoman and used to Test Polymer/ Web Components:<br/>
 
-Voice Control and Voice Commands
-Passport For Login Management
-Sample voice to speech in "Notes" View
-
-DEMO: Euclideanspaces.herokuapp.com
+Voice Control and Voice Commands<br/>
+Passport For Login Management<br/>
+Sample voice to speech in "Notes" View<br/>
+<br/>
+DEMO: Euclideanspaces.herokuapp.com<br/>
 
 #Tech Stack
 
 ##Front-End
-Angular.js
-Bootstrap 3
-Polymer
+Angular.js<br/>
+Bootstrap 3<br/>
+Polymer<br/>
 
 ##Server-Side
-Node.js
-Express
-MongoDB + Mongoose
+Node.js <br/>
+Express <br/>
+MongoDB + Mongoose <br/>
 
 ##Deployment
-Heroku Cedar Stack
+Heroku Cedar Stack <br/>
 MongoHQ for DB
 
 
