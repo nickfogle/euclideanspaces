@@ -1,5 +1,5 @@
 #Summary
-Basic Web Scaffoled with Yeoman and used to Test Polymer/ Web Components:<br/>
+Basic Web App Scaffolded with Yeoman and setup to Test Polymer/ Web Components:<br/>
 
 Voice Control and Voice Commands<br/>
 Passport For Login Management<br/>
